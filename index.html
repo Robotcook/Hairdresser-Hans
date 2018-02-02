@@ -9,8 +9,6 @@
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/hans.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -42,7 +40,7 @@
         </form>
       </div>
     </nav>
-    <div class="container-img">
+    <div class="container">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -64,70 +62,66 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-  </div>
-    <div id="services" class="container services">
-      <p class="services">
+    <div id="services">
         <h2 class="h2hans">Our services</h2>
-      </p>
-      <div class="row" class="container">
-        <div class="col-lg-4">
-           <img class="rounded-circle" src="images/trim.jpg" alt="Styling" width="140" height="140">
-           <h2>Classic Beard Trims</h2>
+      <div class="row">
+        <div class="col-lg-4 text-center">
+           <img class="rounded-circle" src="images/trim.jpg" alt="Styling" width="200" height="200">
+           <h2 class="h2hans">Classic Beard Trims</h2>
            <p>Full service beard trim includes: proper sculpting of the beard, hot towel straight razor shave on the contours of the cheeks and neck. Beard would be styled with one of the products from our finest selection.</p>
         </div>
-        <div class="col-lg-4">
-           <img class="rounded-circle" src="images/shave.jpg" alt="Styling" width="140" height="140">
-           <h2>Classic Shaves</h2>
+        <div class="col-lg-4 text-center">
+           <img class="rounded-circle" src="images/shave.jpg" alt="Styling" width="200" height="200">
+           <h2 class="h2hans">Classic Shaves</h2>
            <p>Our signature classic straight razor service. Hand whipped lather, and hot towel. This will renew your masculinity and leave your face feeling refined & refreshed.</p>
         </div>
-        <div class="col-lg-4">
-           <img class="rounded-circle" src="images/haircut.jpg" alt="Styling" width="140" height="140">
-           <h2>Haircuts</h2>
+        <div class="col-lg-4 text-center">
+           <img class="rounded-circle" src="images/haircut.jpg" alt="Styling" width="200" height="200">
+           <h2 class="h2hans">Haircuts</h2>
            <p>This Haircut is tailored for you, whatever it would be, classic pompadour or razor skin fade. Wash, cut & style from the finest barbers in the land. Scissors, clippers, razor. You will walk out feeling sharp and looking handsome. This service includes head massage with hair tonic.</p>
         </div>
     </div>
-    <div id="appointment" class="container">
+    <div id="appointment">
         <h2 class="h2hans">Make an appointment</h2>
     </div>
-	<div class="row" class="container">
+	<div class="row">
       <div class="col-lg-6">
           <form class="form-horizontal" action="" method="post">
-          <fieldset>
+
             <div class="form-group">
               <label class="col-lg-6 control-label" for="name">Your Name</label>
-              <div class="col-md-9">
+              <div class="col-lg-9">
                 <input id="name" name="name" type="text" placeholder="Please enter your name" class="form-control">
               </div>
             </div>
             <div class="form-group">
               <label class="col-lg-6 control-label" for="email">Your Phone number</label>
               <div class="col-lg-9">
-                <input id="email" name="email" type="text" placeholder="Please enter your phone number" class="form-control">
+                <input id="email" name="email" type="text" placeholder="Your phone number" class="form-control">
               </div>
             </div>
             <div class="form-group">
               <label class="col-lg-6 control-label" for="email">Date</label>
-              <div class="col-md-9">
+              <div class="col-lg-9">
                 <input id="date" name="date" type="text" placeholder="Date" class="form-control">
               </div>
             </div>
             <div class="form-group">
               <label class="col-lg-6 control-label" for="message">Your message</label>
-              <div class="col-md-9">
+              <div class="col-lg-9">
                 <textarea class="form-control" id="message" name="date" placeholder="Please enter your message" rows="5"></textarea>
               </div>
             </div>
             <div class="form-group">
-              <div class="col-md-12 text-center">
+              <div class="col-lg-9 text-center">
                 <button type="submit" class="btn btn-primary btn-lg">Submit</button>
               </div>
               </div>
-          </fieldset>
           </form>
         </div>
 	</div>
-</div>
-    <div id="faq" class="container">
+
+    <div id="faq">
         <h2 class="h2hans">FAQ (frequently asked questions)</h2>
 
   <div id="accordion">
@@ -159,7 +153,7 @@ Yes, please call us or use our website.
 </div>
     </div>
   </div>
-    <div id="contact" class="container">
+    <div id="contact">
         <h2 class="h2hans">Contact</h2>
     <div class="row">
     <div class="col-lg-4">
@@ -179,15 +173,16 @@ Yes, please call us or use our website.
               <p></p>
             </div>
     </div>
-    </div>
-    </div>
-    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html"><h3>Navigation</h3></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -208,5 +203,7 @@ Yes, please call us or use our website.
         </ul>
       </div>
     </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
